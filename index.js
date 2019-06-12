@@ -100,7 +100,7 @@ function promisedHandlebars (Handlebars, options) {
       return markers.resolve(resultWithPlaceholders)
     } finally {
       // Reset promises for the next execution run
-      markers = null
+      // markers = null
     }
   }
 
